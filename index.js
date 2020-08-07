@@ -1,5 +1,7 @@
-console.log('Hello world!')
+if (process) {
+  console.log('Hello world!')
+}
 
-if (window?.alert) {
+if (window && window.alert) {
   window.alert('Hello world')
 }
